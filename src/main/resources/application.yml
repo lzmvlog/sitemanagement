@@ -1,0 +1,12 @@
+# 服务端口
+server:
+  port: 8090
+
+spring:
+  #  数据库的配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.16.3.81:3306/sitemanagement?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+    username: root
+    password: Zdhc@2019_
+    type: com.alibaba.druid.pool.DruidDataSource
